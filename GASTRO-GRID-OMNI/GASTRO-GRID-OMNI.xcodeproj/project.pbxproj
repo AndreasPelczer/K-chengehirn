@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AF8B92F2F0A761D005FCF04 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 1AF8B92E2F0A761D005FCF04 /* Localizable.xcstrings */; };
+		1AF8B9502F0A7B94005FCF04 /* GastroGridDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1AF8B94E2F0A7B94005FCF04 /* GastroGridDataModel.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AF8B8FA2F0A7043005FCF04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AF8B8E02F0A7042005FCF04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AF8B8E72F0A7042005FCF04;
+			remoteInfo = "GASTRO-GRID-OMNI";
+		};
+		1AF8B9042F0A7043005FCF04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AF8B8E02F0A7042005FCF04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AF8B8E72F0A7042005FCF04;
+			remoteInfo = "GASTRO-GRID-OMNI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AF8B8E82F0A7042005FCF04 /* GASTRO-GRID-OMNI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GASTRO-GRID-OMNI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AF8B8F92F0A7043005FCF04 /* GASTRO-GRID-OMNITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GASTRO-GRID-OMNITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AF8B9032F0A7043005FCF04 /* GASTRO-GRID-OMNIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GASTRO-GRID-OMNIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AF8B92E2F0A761D005FCF04 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		1AF8B94F2F0A7B94005FCF04 /* GastroGridDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GastroGridDataModel.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1AF8B90B2F0A7043005FCF04 /* Exceptions for "GASTRO-GRID-OMNI" folder in "GASTRO-GRID-OMNI" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 1AF8B8E72F0A7042005FCF04 /* GASTRO-GRID-OMNI */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1AF8B8EA2F0A7042005FCF04 /* GASTRO-GRID-OMNI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1AF8B90B2F0A7043005FCF04 /* Exceptions for "GASTRO-GRID-OMNI" folder in "GASTRO-GRID-OMNI" target */,
+			);
+			path = "GASTRO-GRID-OMNI";
+			sourceTree = "<group>";
+		};
+		1AF8B8FC2F0A7043005FCF04 /* GASTRO-GRID-OMNITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "GASTRO-GRID-OMNITests";
+			sourceTree = "<group>";
+		};
+		1AF8B9062F0A7043005FCF04 /* GASTRO-GRID-OMNIUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "GASTRO-GRID-OMNIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AF8B8E52F0A7042005FCF04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AF8B8F62F0A7043005FCF04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AF8B9002F0A7043005FCF04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AF8B8DF2F0A7042005FCF04 = {
+			isa = PBXGroup;
+			children = (
+				1AF8B94E2F0A7B94005FCF04 /* GastroGridDataModel.xcdatamodeld */,
+				1AF8B92E2F0A761D005FCF04 /* Localizable.xcstrings */,
+				1AF8B8EA2F0A7042005FCF04 /* GASTRO-GRID-OMNI */,
+				1AF8B8FC2F0A7043005FCF04 /* GASTRO-GRID-OMNITests */,
+				1AF8B9062F0A7043005FCF04 /* GASTRO-GRID-OMNIUITests */,
+				1AF8B8E92F0A7042005FCF04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AF8B8E92F0A7042005FCF04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AF8B8E82F0A7042005FCF04 /* GASTRO-GRID-OMNI.app */,
+				1AF8B8F92F0A7043005FCF04 /* GASTRO-GRID-OMNITests.xctest */,
+				1AF8B9032F0A7043005FCF04 /* GASTRO-GRID-OMNIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AF8B8E72F0A7042005FCF04 /* GASTRO-GRID-OMNI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AF8B90C2F0A7043005FCF04 /* Build configuration list for PBXNativeTarget "GASTRO-GRID-OMNI" */;
+			buildPhases = (
+				1AF8B8E42F0A7042005FCF04 /* Sources */,
+				1AF8B8E52F0A7042005FCF04 /* Frameworks */,
+				1AF8B8E62F0A7042005FCF04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1AF8B8EA2F0A7042005FCF04 /* GASTRO-GRID-OMNI */,
+			);
+			name = "GASTRO-GRID-OMNI";
+			packageProductDependencies = (
+			);
+			productName = "GASTRO-GRID-OMNI";
+			productReference = 1AF8B8E82F0A7042005FCF04 /* GASTRO-GRID-OMNI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AF8B8F82F0A7043005FCF04 /* GASTRO-GRID-OMNITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AF8B9112F0A7043005FCF04 /* Build configuration list for PBXNativeTarget "GASTRO-GRID-OMNITests" */;
+			buildPhases = (
+				1AF8B8F52F0A7043005FCF04 /* Sources */,
+				1AF8B8F62F0A7043005FCF04 /* Frameworks */,
+				1AF8B8F72F0A7043005FCF04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AF8B8FB2F0A7043005FCF04 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1AF8B8FC2F0A7043005FCF04 /* GASTRO-GRID-OMNITests */,
+			);
+			name = "GASTRO-GRID-OMNITests";
+			packageProductDependencies = (
+			);
+			productName = "GASTRO-GRID-OMNITests";
+			productReference = 1AF8B8F92F0A7043005FCF04 /* GASTRO-GRID-OMNITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1AF8B9022F0A7043005FCF04 /* GASTRO-GRID-OMNIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AF8B9142F0A7043005FCF04 /* Build configuration list for PBXNativeTarget "GASTRO-GRID-OMNIUITests" */;
+			buildPhases = (
+				1AF8B8FF2F0A7043005FCF04 /* Sources */,
+				1AF8B9002F0A7043005FCF04 /* Frameworks */,
+				1AF8B9012F0A7043005FCF04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AF8B9052F0A7043005FCF04 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1AF8B9062F0A7043005FCF04 /* GASTRO-GRID-OMNIUITests */,
+			);
+			name = "GASTRO-GRID-OMNIUITests";
+			packageProductDependencies = (
+			);
+			productName = "GASTRO-GRID-OMNIUITests";
+			productReference = 1AF8B9032F0A7043005FCF04 /* GASTRO-GRID-OMNIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AF8B8E02F0A7042005FCF04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					1AF8B8E72F0A7042005FCF04 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					1AF8B8F82F0A7043005FCF04 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 1AF8B8E72F0A7042005FCF04;
+					};
+					1AF8B9022F0A7043005FCF04 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 1AF8B8E72F0A7042005FCF04;
+					};
+				};
+			};
+			buildConfigurationList = 1AF8B8E32F0A7042005FCF04 /* Build configuration list for PBXProject "GASTRO-GRID-OMNI" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+				ar,
+				hi,
+				es,
+				pl,
+				cs,
+				hu,
+			);
+			mainGroup = 1AF8B8DF2F0A7042005FCF04;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1AF8B8E92F0A7042005FCF04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AF8B8E72F0A7042005FCF04 /* GASTRO-GRID-OMNI */,
+				1AF8B8F82F0A7043005FCF04 /* GASTRO-GRID-OMNITests */,
+				1AF8B9022F0A7043005FCF04 /* GASTRO-GRID-OMNIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AF8B8E62F0A7042005FCF04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AF8B92F2F0A761D005FCF04 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AF8B8F72F0A7043005FCF04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AF8B9012F0A7043005FCF04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AF8B8E42F0A7042005FCF04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AF8B9502F0A7B94005FCF04 /* GastroGridDataModel.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AF8B8F52F0A7043005FCF04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AF8B8FF2F0A7043005FCF04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AF8B8FB2F0A7043005FCF04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AF8B8E72F0A7042005FCF04 /* GASTRO-GRID-OMNI */;
+			targetProxy = 1AF8B8FA2F0A7043005FCF04 /* PBXContainerItemProxy */;
+		};
+		1AF8B9052F0A7043005FCF04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AF8B8E72F0A7042005FCF04 /* GASTRO-GRID-OMNI */;
+			targetProxy = 1AF8B9042F0A7043005FCF04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1AF8B90D2F0A7043005FCF04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "GASTRO-GRID-OMNI/GASTRO_GRID_OMNI.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F75D7PGFTD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GASTRO-GRID-OMNI/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "andy.GASTRO-GRID-OMNI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AF8B90E2F0A7043005FCF04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "GASTRO-GRID-OMNI/GASTRO_GRID_OMNI.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F75D7PGFTD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GASTRO-GRID-OMNI/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "andy.GASTRO-GRID-OMNI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1AF8B90F2F0A7043005FCF04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = F75D7PGFTD;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1AF8B9102F0A7043005FCF04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = F75D7PGFTD;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AF8B9122F0A7043005FCF04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F75D7PGFTD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "andy.GASTRO-GRID-OMNITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GASTRO-GRID-OMNI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GASTRO-GRID-OMNI";
+			};
+			name = Debug;
+		};
+		1AF8B9132F0A7043005FCF04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F75D7PGFTD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "andy.GASTRO-GRID-OMNITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GASTRO-GRID-OMNI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GASTRO-GRID-OMNI";
+			};
+			name = Release;
+		};
+		1AF8B9152F0A7043005FCF04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F75D7PGFTD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "andy.GASTRO-GRID-OMNIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GASTRO-GRID-OMNI";
+			};
+			name = Debug;
+		};
+		1AF8B9162F0A7043005FCF04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F75D7PGFTD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "andy.GASTRO-GRID-OMNIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GASTRO-GRID-OMNI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AF8B8E32F0A7042005FCF04 /* Build configuration list for PBXProject "GASTRO-GRID-OMNI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AF8B90F2F0A7043005FCF04 /* Debug */,
+				1AF8B9102F0A7043005FCF04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AF8B90C2F0A7043005FCF04 /* Build configuration list for PBXNativeTarget "GASTRO-GRID-OMNI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AF8B90D2F0A7043005FCF04 /* Debug */,
+				1AF8B90E2F0A7043005FCF04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AF8B9112F0A7043005FCF04 /* Build configuration list for PBXNativeTarget "GASTRO-GRID-OMNITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AF8B9122F0A7043005FCF04 /* Debug */,
+				1AF8B9132F0A7043005FCF04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AF8B9142F0A7043005FCF04 /* Build configuration list for PBXNativeTarget "GASTRO-GRID-OMNIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AF8B9152F0A7043005FCF04 /* Debug */,
+				1AF8B9162F0A7043005FCF04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1AF8B94E2F0A7B94005FCF04 /* GastroGridDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1AF8B94F2F0A7B94005FCF04 /* GastroGridDataModel.xcdatamodel */,
+			);
+			currentVersion = 1AF8B94F2F0A7B94005FCF04 /* GastroGridDataModel.xcdatamodel */;
+			path = GastroGridDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1AF8B8E02F0A7042005FCF04 /* Project object */;
+}

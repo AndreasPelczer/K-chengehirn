@@ -1,0 +1,261 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%lld %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld %2$@"
+          }
+        }
+      }
+    },
+    "%lld Min" : {
+
+    },
+    "%lld Tasks" : {
+
+    },
+    "%lld ZUGEWIESEN" : {
+
+    },
+    "%lld€" : {
+
+    },
+    "Abbrechen" : {
+
+    },
+    "ABSCHLIESSEN / FEEDBACK" : {
+
+    },
+    "Abteilung: %@" : {
+
+    },
+    "AKTIVE EINSATZORTE" : {
+
+    },
+    "ANMERKUNGEN AN DEN CHEF" : {
+
+    },
+    "App Sprache" : {
+
+    },
+    "AUFTRAG ABGESCHLOSSEN" : {
+
+    },
+    "AUFTRAG:" : {
+
+    },
+    "AUFTRAGS-EDITOR (MULTI-CREW)" : {
+
+    },
+    "Auftragsname..." : {
+
+    },
+    "BENÖTIGTE WARE:" : {
+
+    },
+    "Briefing Board" : {
+
+    },
+    "COMMAND CENTER" : {
+
+    },
+    "COMPLETED" : {
+
+    },
+    "CREW AUSWÄHLEN (MEHRFACHWAHL)" : {
+
+    },
+    "Deutsch 🇩🇪" : {
+
+    },
+    "Director" : {
+
+    },
+    "DIRECTOR GRID" : {
+
+    },
+    "Dispatcher" : {
+
+    },
+    "EINSTELLUNGEN" : {
+
+    },
+    "English 🇺🇸" : {
+
+    },
+    "ERLEDIGT" : {
+
+    },
+    "Español 🇪🇸" : {
+
+    },
+    "Event Name" : {
+
+    },
+    "EVENT SPECIAL" : {
+
+    },
+    "Feedback & Abschluss" : {
+
+    },
+    "FEEDBACK AN DEN CHEF" : {
+
+    },
+    "Geplante Zeit: %lld Min" : {
+
+    },
+    "Grund" : {
+
+    },
+    "HACCP_CHECK" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Check core temperature"
+          }
+        }
+      }
+    },
+    "HARDWARE: %@" : {
+
+    },
+    "JETZT ABSCHLIESSEN" : {
+
+    },
+    "Keine Aufträge zugewiesen." : {
+
+    },
+    "Keine Einsätze geplant." : {
+
+    },
+    "Keine Verzögerung" : {
+
+    },
+    "Kommentar (z.B. Zeit zu kurz)" : {
+
+    },
+    "KÜCHEN-BOARD" : {
+
+    },
+    "LOGGED IN: %@" : {
+
+    },
+    "LOGISTIK-ZIEL: %@" : {
+
+    },
+    "Mein Tag" : {
+
+    },
+    "MEINE AUFTRÄGE" : {
+
+    },
+    "MINIPICK LOGISTICS" : {
+
+    },
+    "Neuer Einsatz" : {
+
+    },
+    "NEUER EINSATZ" : {
+
+    },
+    "NEUER TASK" : {
+
+    },
+    "NIEMAND ZUGEWIESEN" : {
+
+    },
+    "OFFEN" : {
+
+    },
+    "Ort" : {
+
+    },
+    "Ort: %@" : {
+
+    },
+    "OUTLET STATUS (30 GESAMT)" : {
+
+    },
+    "PRIO" : {
+
+    },
+    "PRODUCTION CONTROL" : {
+
+    },
+    "Produktion" : {
+
+    },
+    "PRODUKTION ABSCHLIESSEN" : {
+
+    },
+    "PRODUKTIONS-AUFTRÄGE" : {
+
+    },
+    "PRODUKTIONS-AUSLASTUNG" : {
+
+    },
+    "READY TO SHIP" : {
+
+    },
+    "ROLLEN-SIMULATION (DEMO-MODUS)" : {
+
+    },
+    "SAVED TODAY" : {
+
+    },
+    "Settings" : {
+
+    },
+    "SPEICHERN" : {
+
+    },
+    "SPEISEPLAN HEUTE" : {
+
+    },
+    "SPRACHE" : {
+
+    },
+    "STAFF-GRID" : {
+
+    },
+    "STATUS FÜR: %@" : {
+
+    },
+    "Status:" : {
+
+    },
+    "SYSTEM" : {
+
+    },
+    "TOURENPLAN" : {
+
+    },
+    "Verfügbar: %lld Portionen" : {
+
+    },
+    "Verzögerung?" : {
+
+    },
+    "Wählen..." : {
+
+    },
+    "WARE: %@" : {
+
+    },
+    "WARUM GAB ES VERZÖGERUNGEN?" : {
+
+    },
+    "Zentralküche Warm" : {
+
+    },
+    "ZIEL: %@" : {
+
+    }
+  },
+  "version" : "1.0"
+}
