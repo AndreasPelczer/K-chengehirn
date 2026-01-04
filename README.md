@@ -2,13 +2,13 @@
 **The Ultimate Operating System for High-Stakes Hospitality.**
 
 ## 🎯 Vision
-GASTRO-GRID OMNI ist das erste digitale Ökosystem, das die Komplexität einer Messe-Gastronomie (30+ Outlets) mit der Präzision einer Sterneküche (Probeessen) und der Effizienz einer Großkantine (600 MA) vereint. 
+GASTRO-GRID OMNI ist das erste digitale Ökosystem, das die Komplexität einer Messe-Gastronomie (30+ Outlets) mit der Präzision einer Sterneküche (Probeessen) und der Effizienz einer Großküche mit Veranstalltungen bis 10K Personen und einer Großkantine (600 MA) vereint. 
 
 ## 🛠 Die 4 Kern-Module
 
 ### 1. DIRECTOR (Strategic Control)
 Behalte den Überblick über das gesamte Imperium.
-- **Global Monitoring:** Echtzeit-Status aller 30 Outlets (Foodtrucks, Restaurants, Cafés).
+- **Global Monitoring:** Echtzeit-Status aller 30 Outlets (Produktionsküche, Kalte Küche, Pattisserie, Cantienen,Foodtrucks, Restaurants, Events und den Miniveranstalltungen und unsere Getränkestationen, Shops und Cafés).
 - **Financial Health:** Wareneinsatz-Kontrolle gegen Live-Verbrauch.
 - **Event-Typologie:** Spezifische Setups für Großveranstaltungen, mittlere Events oder hochsensible Probeessen.
 
