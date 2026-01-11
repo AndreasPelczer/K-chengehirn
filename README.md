@@ -1,3 +1,137 @@
+# 🌐 GASTRO-GRID OMNI
+### *The Ultimate Operating System for High-Stakes Hospitality.*
+
+**GASTRO-GRID OMNI** (intern: *Küchengehirn*) ist das digitale Nervensystem für die High-End-Eventgastronomie. Entwickelt für Umgebungen, in denen 30 Outlets gleichzeitig brennen, 600 Mitarbeiter Hunger haben und klinische Präzision am Buffet die einzige Währung ist.
+
+---
+
+## 🎯 Die Vision: Vom ERP zum Schneidebrett
+Bestehende Systeme (necta, Ungerboeck, SAP) enden im Büro. **GASTRO-GRID OMNI** füllt die „letzte Meile“. Es übersetzt starre Datenbanken in lebendige Prozesse und bringt die Intelligenz des Küchenchefs (König Director) direkt an den Posten – vom Kap Europa bis zur kleinsten Kaffeestation.
+
+> *"Wir bauen keine Software für die Buchhaltung. Wir bauen Werkzeuge für Menschen, die mit Hitze und Messern arbeiten."*
+
+---
+
+## 🛠 Die 4 Kern-Säulen (Module)
+
+### 1. 🛰 DIRECTOR & DISPATCHER (Strategic Command)
+Das „Command Center“ für den strategischen Überblick über das gesamte Imperium.
+* **Tech-Stack:** `DispatcherViewModel` & `DispatcherView`.
+* **Mission-Logic:** Zentrale Steuerung von „Missions“ (Events). Einteilung der Hybrid-Crew (Festangestellte & Mietköche) per Drag-and-Drop.
+* **RCA (Remote Chef Annotation):** Diskrete Korrekturen per digitalem Marker direkt im Live-Foto des Buffets – Führung ohne laute Worte.
+
+### 2. ⚡️ PRODUCTION & MINIPICK (Supply Chain)
+Hochfrequenz-Logistik für die Produktionsebene und Standbelieferung.
+* **Tech-Stack:** `ProductionTaskViewModel` & `KitchenBoardView`.
+* **Petersilien-Präzision:** Automatische Berechnung von Hardware (GN-Bleche) und Gar-Parametern basierend auf Live-Daten.
+* **Vision-Kit:** KI-gestützter Scan von Lieferanten-Etiketten (Seubert etc.) zur Vermeidung von Fehlleitungen im Messe-Dschungel.
+
+### 3. ♻️ STAFF-GRID (Zero-Waste-Masterstroke)
+Der geschlossene Kreislauf: Vom VIP-Überhang zum Mitarbeiter-Highlight.
+* **Yield-Management:** Überproduktionen werden per Klick erfasst, HACCP-geprüft und automatisch als „Chef’s Special“ für die 600 Kollegen in der Kantine freigeschaltet.
+* **Smart Prognosis:** „Sicher / Vielleicht / Nein“-Logik zur exakten Mengenplanung und massiven Senkung des Wareneinsatzes.
+
+### 4. 🛡 VTP (Visual Trust Protocol)
+Der digitale Schutzschild für den Koch am Posten.
+* **Tech-Stack:** `MissionDetailDetailView` & `AnnotationOverlay`.
+* **AI-Approval:** Bildabgleich zwischen Soll-Setup (Referenz) und Ist-Zustand. Sobald die KI grünes Licht gibt, ist die Qualität offiziell quittiert – Schutz vor unberechtigtem Micromanagement.
+
+---
+
+## 🏗 Technische Architektur (v2026.1)
+
+| Komponente | Technologie | Zweck |
+| :--- | :--- | :--- |
+| **Framework** | **SwiftUI 6.0** | Deklaratives, hochperformantes UI (Optimiert für iPhone 13-16 Pro). |
+| **KI-Engine** | **Google Gemini 2.0** | „Hannes-Intelligenz“ für Allergen-Check, Bräunungsanalyse & RCA. |
+| **Data-Sync** | **SwiftData & CloudKit** | Echtzeit-Abgleich zwischen Commander (iPhone) und Posten (iPad). |
+| **Bridge** | **REST-API / JSON** | Bidirektionaler Datenaustausch mit necta (WaWi) & Ungerboeck (Bankett). |
+
+---
+
+## 🎨 Design-Philosophie: Frankfurt Style
+* **Neon-Contrast:** Maximale Lesbarkeit in dunklen Backstage-Bereichen (Neon-Green auf Industrial-Black).
+* **Single Responsibility:** Jede View macht genau eine Sache perfekt. Keine Spielereien.
+* **Clinical Precision:** Icons und Layouts folgen der Logik chirurgischer Instrumente.
+
+---
+
+## 💰 Warum GASTRO-GRID OMNI? (ROI)
+* **Food Waste:** -12% durch mathematische Skalierung und Reste-Rückführung.
+* **Lohnkosten:** -45 Min. Einweisungszeit pro Mietkoch/Tag durch In-App-Briefings und Navigation.
+* **Haftung:** 100% papierlose, revisionssichere HACCP-Dokumentation in Echtzeit.
+
+---
+
+## 📂 Projektstruktur
+- `/Core`: Design System, Global Environment & Neon-Themes.
+- `/IntelligenceHub`: Gemini API Integration & Clinical Logic.
+- `/OperationalGrid`: Dispatcher-Board, Mission-Control & Crew-Management.
+- `/Production`: ProductionTask-Logik & Kitchen-Board.
+- `/Logistics`: Vision-Kit Scanner & necta-Connector.
+
+**Entwickler:** Andreas Pelczer  
+**Vision:** Digitalisierung der Gastronomie, ohne ihre Seele zu verlieren.  
+**Status:** Version 1.1 (Ready for Pilot: VA 9099 - Kap Europa)
+
+
+🌐 GASTRO-GRID OMNI
+The Ultimate Operating System for High-Stakes Hospitality.
+GASTRO-GRID OMNI (intern: Küchengehirn) ist nicht einfach eine App – es ist ein digitales Nervensystem für die High-End-Eventgastronomie. Gebaut für Umgebungen, in denen 30 Outlets gleichzeitig brennen, 600 Mitarbeiter Hunger haben und Perfektion am Buffet die einzige akzeptierte Währung ist.
+
+🎯 Die Vision: Vom ERP zum Schneidebrett
+Bestehende Systeme (necta, Ungerboeck, SAP) enden im Büro. GASTRO-GRID OMNI füllt die „letzte Meile“. Es übersetzt starre Datenbanken in lebendige Prozesse und sorgt dafür, dass die Intelligenz des Küchenchefs (König Director) an jedem Posten präsent ist – vom Kap Europa bis zur kleinsten Kaffeestation.
+
+"Wir bauen keine Software für die Buchhaltung. Wir bauen Werkzeuge für Menschen, die mit Hitze und Messern arbeiten."
+
+🛠 Die 4 Kern-Säulen (Module)
+1. 🛰 DIRECTOR & DISPATCHER (Strategic Command)
+Das „Auge von Sauron“ für das Messegelände.
+Code-Basis: DispatcherViewModel & DispatcherView.
+Mission-Logic: Zentrale Steuerung von „Missions“ (Events). Einteilung der Hybrid-Crew (Festangestellte & Mietköche) per Drag-and-Drop.
+RCA (Remote Chef Annotation): Diskrete Korrekturen per digitalem Marker direkt im Live-Foto des Buffets.
+2. ⚡️ PRODUCTION & MINIPICK (Supply Chain)
+Hochfrequenz-Logistik für die Produktionsebene.
+Code-Basis: ProductionTaskViewModel & KitchenBoardView.
+Petersilien-Präzision: Automatische Berechnung von Hardware (GN-Bleche) und Gar-Parametern basierend auf der Personenanzahl.
+Vision-Kit: KI-gestützter Scan von Lieferanten-Etiketten zur Vermeidung von Fehlleitungen im Lager.
+3. ♻️ STAFF-GRID (Zero-Waste-Masterstroke)
+Die Rettung der 200 Portionen Boeuf Bourgignon.
+Yield-Management: Überhänge am Buffet werden per Klick erfasst, HACCP-geprüft und automatisch als „Chef’s Special“ in die Personalverpflegung eingespeist.
+Smart Prognosis: „Sicher / Vielleicht / Nein“-Logik zur exakten Mengenplanung für 600+ Mitarbeiter.
+4. 🛡 VTP (Visual Trust Protocol)
+Der Schutzschild für den Koch.
+Code-Basis: MissionDetailDetailView.
+AI-Approval: Bildabgleich zwischen Soll-Setup (Referenz) und Ist-Zustand. Sobald die KI grünes Licht gibt, ist die Qualität offiziell quittiert – Schluss mit Micromanagement-Diskussionen am Buffet.
+🏗 Technische Architektur (v2026.1)
+Komponente	Technologie	Zweck
+Framework	SwiftUI 6.0	Deklaratives, hochperformantes UI (Optimiert für iPhone 13-16 Pro).
+KI-Engine	Google Gemini 2.0	„Hannes-Intelligenz“ für Allergen-Check, Bräunungsanalyse & RCA.
+Data-Sync	SwiftData & CloudKit	Echtzeit-Abgleich zwischen Commander (iPhone) und Posten (iPad).
+Bridge	REST-API / JSON	Bidirektionaler Datenaustausch mit necta (WaWi) & Ungerboeck.
+🎨 Design-Philosophie: Frankfurt Style
+Neon-Contrast: Maximale Lesbarkeit in dunklen Backstage-Bereichen und grellen Küchen-Lichtern.
+Industrial Dark: Ein Look, der Professionalität und Verwegenheit ausstrahlt.
+Single Responsibility: Jede View macht genau eine Sache perfekt.
+💰 Business-Impact (ROI)
+Food Waste: -12% durch mathematische Skalierung und den Staff-Grid-Loop.
+Lohnkosten: -45 Min. Einweisungszeit pro Mietkoch/Tag durch In-App-Briefings und Navigation.
+Haftung: 100% papierlose, lückenlose HACCP-Dokumentation in der Cloud.
+📂 Projektstruktur
+/Core: Design System & Global Environment (Neon-Colors).
+/Director: Das Command Center für den strategischen Überblick.
+/Production: Die „Hitze-Zone“ – Tasks, Timer & Hardware-Kalkulation.
+/Intelligence: Gemini API & Vision-Framework Integration.
+/Logistics: necta-Connector & MiniPick-Logik.
+Entwickler: Andreas Pelczer
+
+Status: In Vorbereitung auf den Pilot-Lauf (VA 9099 - Kap Europa)
+
+Motto: Digitalisierung der Gastronomie, ohne ihre Seele zu verlieren.
+
+
+
+
 # 🟢 GASTRO-GRID OMNI
 **The Ultimate Operating System for High-Stakes Hospitality.**
 
